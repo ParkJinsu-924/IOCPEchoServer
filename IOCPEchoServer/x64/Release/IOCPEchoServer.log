@@ -1,0 +1,35 @@
+﻿  CLanServer.cpp
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.h(85,30): warning C4359: 'CLanServer::stSESSION': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(53,13): warning C4244: '인수': 'DWORD'에서 'SHORT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(361,6): warning C4101: 'enqueueSize' :참조되지 않은 지역 변수입니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(415,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(416,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(417,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(418,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(419,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(420,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(421,1): warning C4010: 한 줄로 된 주석에 줄 연속 문자가 있습니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(664,45): warning C4316: 'CLanServer::stSESSION': 힙에 할당된 개체가 128에 맞추어져 있지 않을 수도 있습니다
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(744,9): warning C4244: 'return': 'UINT64'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\박진수\Desktop\Lib\CLockFreeStack\LockFreeStack.h(60,10): warning C4101: 'tempNewTop' :참조되지 않은 지역 변수입니다.
+C:\Users\박진수\Desktop\Lib\CLockFreeStack\LockFreeStack.h(57): message : 클래스 템플릿 멤버 함수 'bool LockFreeStack<INT>::Pop(DATA *)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              DATA=INT
+          ]
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(275): message : 컴파일되는 함수 템플릿 인스턴스화 'bool LockFreeStack<INT>::Pop(DATA *)'에 대한 참조를 확인하세요.
+          with
+          [
+              DATA=INT
+          ]
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.h(109): message : 컴파일되는 클래스 템플릿 인스턴스화 'LockFreeStack<INT>'에 대한 참조를 확인하세요.
+C:\Users\박진수\Desktop\Lib\CLockFreeQueue\LockFreeQueue.h(182,10): warning C4244: 'return': 'LONG64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\박진수\Desktop\Lib\CLockFreeQueue\LockFreeQueue.h(181): message : 클래스 템플릿 멤버 함수 'int LockFreeQueue<CSerializationBuffer *>::GetQueueSize(void)'을(를) 컴파일하는 중입니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(125): message : 컴파일되는 함수 템플릿 인스턴스화 'int LockFreeQueue<CSerializationBuffer *>::GetQueueSize(void)'에 대한 참조를 확인하세요.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.h(99): message : 컴파일되는 클래스 템플릿 인스턴스화 'LockFreeQueue<CSerializationBuffer *>'에 대한 참조를 확인하세요.
+  코드를 생성하고 있습니다.
+  9 of 121 functions ( 7.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  IOCPEchoServer.vcxproj -> C:\Users\박진수\Desktop\이제부터라도 정리잘하자\IOCPEchoServer\x64\Release\IOCPEchoServer.exe

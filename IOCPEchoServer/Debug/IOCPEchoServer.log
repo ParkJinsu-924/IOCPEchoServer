@@ -1,0 +1,21 @@
+﻿  CLanServer.cpp
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'CNetServer.h': No such file or directory
+  CSerializationBufferLan.cpp
+C:\Users\박진수\Desktop\Lib\CMemoryPoolTLS\CMemoryPool.h(105): error C3861: 'InterlockedCompareExchange128': 식별자를 찾을 수 없습니다.
+C:\Users\박진수\Desktop\Lib\CMemoryPoolTLS\CMemoryPool.h(105): message : 'InterlockedCompareExchange128': 함수가 템플릿 선언 컨텍스트에 선언되지 않았으며 인스턴스화 컨텍스트의 인수 종속성 조회를 통해서만 찾을 수 있습니다.
+C:\Users\박진수\Desktop\Lib\CMemoryPoolTLS\CMemoryPool.h(75): message : 클래스 템플릿 멤버 함수 'DATA *CMemoryPool<DATA>::Alloc(void)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              DATA=CMemoryPoolTLS<CSerializationBuffer>::CHUNK
+          ]
+C:\Users\박진수\Desktop\Lib\CMemoryPoolTLS\CMemoryPoolTLS.h(51): message : 컴파일되는 함수 템플릿 인스턴스화 'DATA *CMemoryPool<DATA>::Alloc(void)'에 대한 참조를 확인하세요.
+          with
+          [
+              DATA=CMemoryPoolTLS<CSerializationBuffer>::CHUNK
+          ]
+C:\Users\박진수\Desktop\Lib\CMemoryPoolTLS\CMemoryPoolTLS.h(11): message : 컴파일되는 클래스 템플릿 인스턴스화 'CMemoryPool<CMemoryPoolTLS<CSerializationBuffer>::CHUNK>'에 대한 참조를 확인하세요.
+C:\Users\박진수\Desktop\Lib\CSerializationBufferLan\CSerializationBufferLan.h(92): message : 컴파일되는 클래스 템플릿 인스턴스화 'CMemoryPoolTLS<CSerializationBuffer>'에 대한 참조를 확인하세요.
+  main.cpp
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.h(151,30): warning C4359: 'CLanServer::stSESSION': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다.
+C:\Users\박진수\Desktop\Lib\CLanServer\CLanServer.h(210,58): warning C4244: '=': 'DWORD'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
